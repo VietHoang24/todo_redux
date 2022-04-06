@@ -1,0 +1,8 @@
+{
+    "todos":[
+        { "id":1,"title":"Uống sữa", "completed": false},
+        { "id":2,"title":"Ăn Cơm", "completed": true},
+        { "id":3,"title":"đi chơi", "completed": false},
+        { "id":4,"title":"coffe", "completed": false}
+    ]
+}

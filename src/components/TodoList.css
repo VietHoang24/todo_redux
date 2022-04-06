@@ -1,0 +1,46 @@
+
+.input input{
+    width: 60%; 
+    height: 100%;
+
+}
+.list-todo{
+    height: 700px;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+ 
+}
+.task{
+  
+    width: 75%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: rgb(238, 238, 238);
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 10px;
+  
+}
+.task-completed{
+    text-decoration: line-through;
+}
+.item-padding{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 24px;
+}
+.delete{
+    cursor: pointer;
+    background: rgb(201, 3, 3);
+    color: rgb(240, 240, 240);
+    
+}
+.completed{
+    cursor: pointer;
+    background: rgb(52, 212, 52);
+    color: white;
+}
+button{
+    width: 90px;
+    font-size: 14px ;
+}
