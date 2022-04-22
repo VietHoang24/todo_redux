@@ -1,8 +1,30 @@
 {
-    "todos":[
-        { "id":1,"title":"Uống sữa", "completed": false},
-        { "id":2,"title":"Ăn Cơm", "completed": true},
-        { "id":3,"title":"đi chơi", "completed": false},
-        { "id":4,"title":"coffe", "completed": false}
-    ]
+  "todos": [
+    {
+      "id": 1650598832144,
+      "title": "tập thể dục",
+      "completed": true,
+      "finishTime": "07:00"
+    },
+    {
+      "id": 1650598938197,
+      "title": "Đi làm",
+      "completed": true,
+      "finishTime": "18:00"
+    },
+    {
+      "id": 1650598964759,
+      "title": "Ngủ",
+      "completed": false,
+      "finishTime": "19:42"
+    }
+  ],
+  "state": [
+    {
+      "id": 0,
+      "value": 0,
+      "edit": 0,
+      "idx": 1650598964759
+    }
+  ]
 }

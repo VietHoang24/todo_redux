@@ -1,0 +1,80 @@
+.addTodoList{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.todo-background{
+    position: absolute;
+    top: 166px;
+    width: 428px;
+    height: 581px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.todo-background header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.todo-background header p{
+    padding: 0;
+    margin: 20px 0 0 10px;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.todo-background header div{
+    margin: 5px;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+                 
+    margin-right: 7px;
+    cursor: pointer;
+   
+}
+.input-item{
+    width: 100%;
+   padding-left: 10px;
+   padding-right: 10px;
+   box-sizing: border-box;
+}
+.input-item label{
+    font-size: 14px;
+    font-weight: 600;
+}
+.input-item input{
+    width: 100%;
+  
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: rgba(141, 140, 140, 0.582) 1px solid;
+   
+    height: 30px;
+}
+.bottom{
+    position: absolute;
+    bottom: 5px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.bottom button{
+    background: rgb(98, 0, 255)  ;
+    color:white;
+    border-color:rgb(110, 20, 255)  ;
+    border-radius: 5px;
+    width: 150px;
+}
+.bottom button:hover{
+    cursor: pointer;
+    background: rgb(111, 23, 252)  ;
+    
+}
+
